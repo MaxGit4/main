@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto!';
+}
+body{
+  background-color: #171717;
+	background-image:url(../img/bg-img.png);
+	background-size: 100%;
+  align-items: center;
+	background-attachment: fixed;
+	color: white;
+  background-repeat: no-repeat;
+}
+@font-face{
+  font-family: 'Roboto!';
+  src: local('Roboto');
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face{
+  font-family: 'Philosopher';
+  src: local('Philosopher');
+  src: url(../font/Philosopher-Regular.ttf);
+}
+@font-face{
+  font-family: 'Audiowide';
+  src: local('Audiowide');
+  src: url(../font/Audiowide-Regular.ttf);
+}
+button a{
+	text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+}
+#main{
+	background-color: rgba(10, 10, 10, 0.7);	
+	height: 100%;
+}
+.container {
+	width: 100%;
+	margin-left:0;
+	margin-right:0;
+}
+#header{
+	display: flex;
+	padding: 5px;
+	align-items: center;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header img{
+	border-radius: 50px;
+}
+#header .btn{
+	background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#header .btn:hover{ 
+  background-color: #4BA8EB;
+}
+#header .btn a{
+	color:rgb(253, 252, 252);
+  text-decoration: none;
+  text-align:left;
+}
+h1{
+  padding-top: 65px;
+  text-align: center;
+}
+.chapters{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.chapters button{
+  appearance: none;
+  outline:none ;
+  border: 4px lightblue solid;
+  background-color: rgba(130, 180, 255, 0.5);
+  text-shadow: 0 1px 1px rgba();
+  font-size: 5vmin;
+  padding-block: .75ch ;
+  padding-inline: 2ch;
+  border-radius: 3px 25px;
+}
+.chapters a{
+  color: white;
+  font-family: Philosopher;
+}
+.chapters li{
+  display: inline-flex;
+  position: relative;
+}
+#about p {
+	font-size: 1.5em;
+	padding-left: 13%;
+  padding-right: 13%;
+}
+h3{
+  font-family: Audiowide;
+}
+h2{
+  text-align: center;
+  margin: 0;
+  color: white;
+  margin-bottom: 30px;
+}
+#catalog{
+margin-left: 5%;
+margin-right: 5%;
+}
+.books td{
+  width: 30%;
+  padding: 20px;
+  margin: 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.video td{
+  width: 100%;
+  padding: 10px;
+  padding-right:5% ;
+  padding-left: 5%;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.programs td{
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.books td img{ width: 100%;}
+.video video{ width: 100%; }
+.programs td img{ width: 100%; }
+#catalog .dwnld {
+  background-color: #4BA8EB;
+  border: none;
+  border-radius: 0 ;
+}
+#catalog .dwnld a {
+  color: black;
+  padding: 10px;
+}
+#catalog .dwnld:hover{
+  background-color: #4BA8EB ;
+}
+#catalog .dwnld a:hover{
+  color: white;
+}
+.spisok{
+  background-color: white;
+  padding: 2px;
+  border: none;
+}
