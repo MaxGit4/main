@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit-no">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<style type="text/css">	</style>
+	<meta name="description" content="Добро пожаловать на сайт APG,тут ты найдешь новости по программированию,а также файлы,которых нет в нашем ICQ">
+</head>
+<body>
+<div id="main" class="container">
+	<div id="header">
+		<a href="https://icq.im/APG_IT" class="logo"><img src="img/apg-logo.jpg" width="50"></a>
+		<h3>Association of Publick Geeks</h3>
+		<div class="links">
+            <button class="btn"><a href="pages/lessons.html"  target="_blank">Уроки</a></button>
+            <button class="btn"><a href="pages/news.html"  target="_blank">Новости</a></button>
+            <button class="btn"><a href="https://icq.im/APG_IT" target="_blank">Канал</a></button>
+            <button class="btn"><a href="https://icq.im/apg_group" target="_blank">Чат</a></button>
+        </div> 
+	</div>
+	<h1>Главная</h1>
+	<div>
+	<ul class="chapters">
+		<li><button><a href="pages/news.html" target="_blank">Новости</a></button><li>
+		<li><button><a href="pages/books.html" target="_blank">Книги</a></button><li>
+		<li><button><a href="pages/video.html" target="_blank">Видео-уроки</a></button><li>
+		<li><button><a href="pages/programs.html" target="_blank">Программы</a></button><li>
+		<li><button><a href="pages/lessons.html" target="_blank">Уроки</a></button><li>
+	</ul>
+	</div>
+</div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyDb_FGXPdgiOxpBpMaP8aaaHCJdmd1iKd4",
+    authDomain: "apg-it.firebaseapp.com",
+    projectId: "apg-it",
+    storageBucket: "apg-it.appspot.com",
+    messagingSenderId: "809274224715",
+    appId: "1:809274224715:web:1f853c02e02c8408aaddce",
+    measurementId: "G-KFB63B44LV"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
